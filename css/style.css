@@ -1,0 +1,330 @@
+*{
+  margin: 0;
+  padding: 0;
+  bground-color:#FFF;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+hr{
+  height: 5px;
+}
+
+.top{
+  display:inline-flex;
+  margin: 25px;
+}
+.top .name a{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.top .sea input{
+   padding: 14px;
+   border-radius: 5%;
+   margin: 0  26px;
+
+}
+
+.top .sea input button i{
+  padding: 15px;
+  margin: 0  26px;
+
+}
+
+.top .box1{
+   float: 30%;
+   padding: 20px 40px;
+}
+
+.top .box1 ul{
+  display:inline-flex;
+}
+
+.top .box2{
+  padding-left:50px;
+  float: right;
+}
+
+.box2 ul li{
+  float:right;
+  list-style-type: none;
+}
+
+.box2 ul li a{
+  
+  border: none;
+  text-decoration: none;
+}
+
+.top .box2 ul li {
+  padding: 14px;
+  border-radius: 5%;
+  margin: 0  10px;
+  font-size: 20px;
+  float: right;
+}
+
+
+
+.head .divjob{
+  display: inline-flex;
+  
+}
+
+.head .divjob #explore{
+   margin: 16px 10px;
+   padding-left: 20px;
+}
+
+#emjob{
+  padding-left:420px;
+  float: right;
+}
+.head ul {
+  overflow: hidden;
+  display: inline-flex;
+}
+
+.head ul li{
+  list-style-type: none;
+}
+
+/* Style the head links */
+.head ul li a{
+  float: left;
+  margin: 10px;
+  display:inline-block;
+  color: black;
+  padding:16px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 500;
+}
+
+/* Change color on hover */
+.heada:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.main{
+   margin-top: 20px;
+   
+}
+.sidebar{
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+.sidebar .profile2 {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.sidebar .profile2 img{
+  width: 20%;
+}
+
+#emailpro{
+  font-size: 20px;
+  font-weight: 700px;
+}
+.sidebar .profile2 ul {
+
+  padding-top:25px;
+
+}
+.sidebar .profile2 ul  li{
+  padding: 5px;
+}
+
+.sidebar .profile2 ul li {
+  list-style-type: none;
+}
+.sidebar .profile2 ul li a{
+   text-decoration: none;
+}
+
+
+.getting{
+  margin-top: 80px;
+}
+.office{
+  margin-top: 40px;
+}
+.office img{
+  width: 90%;
+}
+.com h3{
+  margin-top: 10%;
+}
+
+ #copnaney img{
+  width: 15%;
+}
+
+#copnaney1 img{
+  width: 15%;
+}
+#copnaney2 img{
+  width: 15%;
+}
+
+.content{
+  float:left;
+  width: 70%;
+  padding: 15px;
+}
+
+
+
+#profilelocation{
+  border: 1px solid;
+  padding: 15px;  
+  height: 160px;
+  width: 320px;
+  margin-top:10%;
+
+}
+#profilelocation img{
+  width: 20%;
+  margin-left:115px;
+}
+
+#profilelocation p{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#profilelocation p a{
+  text-decoration: none;
+}
+#profilelocation:hover{
+  box-shadow: 3px 3px #07dd72;
+}
+
+
+#cimg img{
+  width: 10%;
+}
+
+
+
+
+
+
+
+.column {
+  float:left;
+  width: 20%;
+  padding: 15px;
+}
+
+.footermenu{
+  display: inline-block;
+  
+  padding: 10px;
+  width: 100%;
+  background:#DCDCDC;
+ 
+}
+.footermenu .column .logo{
+  margin-bottom: 50%;
+
+}
+.footermenu .column .logo img{
+  width: 100%;
+  
+}
+
+.footermenu .column .findjob{
+  font-size: large;
+  padding: 0 10px;
+}
+
+.footermenu .column .findjob ul{
+  margin-top: 25px;
+}
+
+.footermenu .column .logo{
+  font-size: larger;
+  padding: 0 10px;
+
+}
+
+.footermenu .column .logo ul{
+  margin-top: 25px;
+}
+
+.footermenu .column .employer{
+  font-size: larger;
+  padding: 0 10px;
+}
+
+ 
+
+.footermenu .column .employer ul{
+  margin-top: 25px;
+}
+
+.footermenu .column .commuity{
+  font-size: larger; 
+  padding: 0 7px;
+}
+
+.footermenu .column .commuity ul{
+  margin-top: 25px;
+}
+
+
+.footermenu .column .work{
+  padding: 0 10px;
+  font-size: larger; 
+}
+
+.footermenu .column .work ul{
+  margin-top: 25px;
+}
+
+.column .list ul li {
+  list-style-type: none;
+  
+}
+
+.column .list ul li a{
+  text-decoration: none;
+}
+
+.footermenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer .Browser  {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: medium;
+ 
+}
+
+.footer .Browser ul li{
+  display: inline-block;
+}
+
+.footer .Browser ul li{
+  list-style-type: none;
+  padding: 0 5px;
+  
+}
+
+.footer {
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  background: #FFFAFA; 
+}
+
